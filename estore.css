@@ -1,0 +1,219 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+     header{
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('img/bgm.jpg');
+        background-size: cover;
+        font-family; sans-serif;
+     }
+     .nav1{
+        width: 100%;
+        height: 50px;
+        color: white;
+        background: #222f3e;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .nav1 p{
+        font-size: x-large;
+    }
+    .nav1 a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px;
+        font-size: 20px;
+        background: rgb(163, 99, 21); 
+        border-radius: 8px;
+        transition:0.4s;
+     }
+     .nav1 a:hover{
+        background: transparent;
+        border:1px solid indianred;
+     }
+
+
+     .nav2{
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .logo{
+        color: rgb(155, 251, 214);
+        font-size: 4em;
+        Letter-spacing: 2px;
+     }
+     .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px; 
+        position: relative; 
+     }
+     .menu a:before{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width:0%;
+        height:100%;
+        border-bottom: 2px solid indianred;
+        transition: 0.4s linear;
+     }
+     .menu a:hover:before{
+        width: 90%;
+     }
+     .register a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+        background: indianred; 
+        border-radius: 8px;
+        transition:0.4s;
+     }
+     .register a:hover{
+        background: transparent;
+        border:1px solid indianred;
+     }
+     .h-txt{
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        Left: 50%;
+        transform: translate(-50%, -50%);
+        text-align : center;
+        color: white;
+
+     }
+     .h-txt span{
+        letter-spacing: 5px;
+     }
+     .h-txt h1{
+        font-size:3.5em ;
+     }
+     .h-txt a{
+        text-decoration: none;
+        background: indianred;
+        color: white;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+        transition:0.4s;
+
+     }
+     
+     .h-txt a:hover{
+        background: indigo;
+        border:1px solid indianred;
+     }
+    
+     .d-txt{
+        position: absolute;
+        top: 112%;
+        Left: 50%;
+        transform: translate(-50%, -50%);
+        text-align : center;
+        color: rgb(187, 53, 53);
+        font-size: xx-large;
+
+     }
+
+     
+#main1 {
+    margin-top: 100px;;
+    text-align: center;
+    background-color:#c8f3f93f;
+   
+}
+
+#main1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#main1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    background-color: #e8e8e884;
+    border: 1px solid #90afae;
+   
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+
+#main1 .pro:hover {
+    box-shadow: 20px 20px 30px rgb(0 0 0 / 46%)
+}
+
+#main1.pro img {
+  
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+#main1.pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#main1.pro .des span {
+    color: #6f6f74;
+    font-size: 12px;
+}
+
+#main1.pro .des h5 {
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+#main1.pro .des i {
+    font-size: 12px;
+    color: rgba(243, 181, 25);
+}
+
+#main1.pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer
+ .nav3{
+    width: 100%;
+    height: 200px;
+    color: white;
+    background: #000811;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav3 p{
+    font-size: x-large;
+}
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: rgb(207, 8, 8); 
+    border-radius: 8px;
+    transition:0.4s;
+ }
+ .nav3 a:hover{
+    background: transparent;
+    border:1px solid indianred;
+
+   
+}
